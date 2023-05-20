@@ -1,0 +1,31 @@
+local GUI = game:GetService("CoreGui"):FindFirstChild("ROMHUBNofitication") 
+  
+ if not GUI then 
+  
+     local ROMHUBNofitication = Instance.new("ScreenGui") 
+  
+     local ROMHUBNofiticationUIListLayout = Instance.new("UIListLayout") 
+  
+     ROMHUBNofitication.Name = "ROMHUBNofitication" 
+  
+     ROMHUBNofitication.Parent = game.CoreGui 
+  
+     ROMHUBNofitication.ZIndexBehavior = Enum.ZIndexBehavior.Sibling 
+  
+     ROMHUBNofitication.ResetOnSpawn = false 
+  
+      
+  
+     ROMHUBNofiticationUIListLayout.Name = "ROMHUBUIListLayout" 
+  
+     ROMHUBNofiticationUIListLayout.Parent = ROMHUBNofitication 
+  
+     ROMHUBNofiticationUIListLayout.HorizontalAlignment = Enum.HorizontalAlignment.Right 
+  
+     ROMHUBNofiticationUIListLayout.SortOrder = Enum.SortOrder.LayoutOrder 
+  
+     ROMHUBNofiticationUIListLayout.VerticalAlignment = Enum.VerticalAlignment.Bottom 
+  
+ else 
+  
+ end
