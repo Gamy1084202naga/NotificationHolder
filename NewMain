@@ -26,6 +26,9 @@ local GUI = game:GetService("CoreGui"):FindFirstChild("ROMHUBNofitication")
   
      ROMHUBNofiticationUIListLayout.VerticalAlignment = Enum.VerticalAlignment.Bottom 
   
+ROMHUBNofiticationUIListLayout.Padding = UDim.new(0, 5)
+ 
+
  else 
   
  end
