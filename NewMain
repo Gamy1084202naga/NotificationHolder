@@ -4,7 +4,7 @@ local GUI = game:GetService("CoreGui"):FindFirstChild("ROMHUBNofitication")
   
      local RNofitication = Instance.new("ScreenGui") 
   
-     local ROMHUBNofiticationUIListLayout = Instance.new("UIListLayout") 
+     local RNofiticationUIListLayout = Instance.new("UIListLayout") 
   
      RNofitication.Name = "RNofitication" 
   
