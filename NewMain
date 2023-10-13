@@ -2,31 +2,31 @@ local GUI = game:GetService("CoreGui"):FindFirstChild("ROMHUBNofitication")
   
  if not GUI then 
   
-     local ROMHUBNofitication = Instance.new("ScreenGui") 
+     local RNofitication = Instance.new("ScreenGui") 
   
      local ROMHUBNofiticationUIListLayout = Instance.new("UIListLayout") 
   
-     ROMHUBNofitication.Name = "ROMHUBNofitication" 
+     RNofitication.Name = "RNofitication" 
   
-     ROMHUBNofitication.Parent = game.CoreGui 
+     RNofitication.Parent = game.CoreGui 
   
-     ROMHUBNofitication.ZIndexBehavior = Enum.ZIndexBehavior.Sibling 
+     RNofitication.ZIndexBehavior = Enum.ZIndexBehavior.Sibling 
   
-     ROMHUBNofitication.ResetOnSpawn = false 
+     RNofitication.ResetOnSpawn = false 
   
       
   
-     ROMHUBNofiticationUIListLayout.Name = "ROMHUBUIListLayout" 
+     RNofiticationUIListLayout.Name = "RUIListLayout" 
   
-     ROMHUBNofiticationUIListLayout.Parent = ROMHUBNofitication 
+     RNofiticationUIListLayout.Parent = RNofitication 
   
-     ROMHUBNofiticationUIListLayout.HorizontalAlignment = Enum.HorizontalAlignment.Right 
+     RNofiticationUIListLayout.HorizontalAlignment = Enum.HorizontalAlignment.Right 
   
-     ROMHUBNofiticationUIListLayout.SortOrder = Enum.SortOrder.LayoutOrder 
+     RNofiticationUIListLayout.SortOrder = Enum.SortOrder.LayoutOrder 
   
-     ROMHUBNofiticationUIListLayout.VerticalAlignment = Enum.VerticalAlignment.Bottom 
+     RNofiticationUIListLayout.VerticalAlignment = Enum.VerticalAlignment.Bottom 
   
-ROMHUBNofiticationUIListLayout.Padding = UDim.new(0, 5)
+RNofiticationUIListLayout.Padding = UDim.new(0, 5)
  
 
  else 
